@@ -1,0 +1,16 @@
+
+L
+java:S2093)"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8’—çŠÓ.
+Q
+java:S3740%"/Provide the parametrized type for this generic.(®Â×Öûÿÿÿÿ8’—çŠÓ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ï”“áøÿÿÿÿ8’—çŠÓ.
+n
+java:S26770"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ8’—çŠÓ.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Üà£Ğ8’—çŠÓ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¥ÌÕûÿÿÿÿ8’—çŠÓ.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(‘¡•Ïùÿÿÿÿ8’—çŠÓ.
+r	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Â×Öûÿÿÿÿ8’—çŠÓ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ó­³´ùÿÿÿÿ8’—çŠÓ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(“±©8’—çŠÓ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¶åé¿8’—çŠÓ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿§İ–8’—çŠÓ.

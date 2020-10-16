@@ -10,14 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8bdea95-8b42-41ce-b7ba-88a3a3b9dd8e" name="Default Changelist" comment="" />
+    <list default="true" id="b8bdea95-8b42-41ce-b7ba-88a3a3b9dd8e" name="Default Changelist" comment="Base again">
+      <change afterPath="$PROJECT_DIR$/TOO-project/src/main/java/WebSockets_illustration2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/WebSockets_Tyrus_1_15.Java.Maven/TOO-project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TOO-project" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,15 +42,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TOO-project/src/main/java/com/franckbarbier/websockets/tyrus/java" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,7 +73,24 @@
       <option name="presentableId" value="Default" />
       <updated>1602831571733</updated>
       <workItem from="1602831572802" duration="841000" />
+      <workItem from="1602832424741" duration="686000" />
+      <workItem from="1602850276645" duration="570000" />
     </task>
+    <task id="LOCAL-00001" summary="Base">
+      <created>1602832466569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602832466569</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Base again">
+      <created>1602832624573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602832624573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +106,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fhvfb" />
+    <MESSAGE value="Base" />
+    <MESSAGE value="Base again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base again" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="482" y="187" key="SettingsEditor" timestamp="1602850433076">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1602850433076" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602832683860">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1602832683860" />
+    <state x="587" y="256" width="802" height="592" key="new project wizard" timestamp="1602850850810">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="587" y="256" width="802" height="592" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1602850850810" />
   </component>
 </project>
