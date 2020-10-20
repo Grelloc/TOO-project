@@ -1,8 +1,7 @@
 'use strict';
-
 window.onload = () => {
     // Tested with Tyrus 1.15 WebSockets Java library
-    let service = new WebSocket("ws://localhost:1963/FranckBarbier/WebSockets_illustration");
+    let service = new WebSocket("ws://localhost:1963://localhost:1963/FranckBarbier/WebSockets_illustration");
     service.onmessage = (event) => {
         console.log("Message from Java: " + event.data);
     };
