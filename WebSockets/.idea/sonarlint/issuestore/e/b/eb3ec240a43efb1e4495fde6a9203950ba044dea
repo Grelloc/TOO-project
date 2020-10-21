@@ -1,6 +1,0 @@
-
-V	java:S125"<This block of commented-out lines of code should be removed.(ÿ´×œüÿÿÿÿ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‘¡•Ïùÿÿÿÿ8¦¥ÖäÔ.
-X	java:S125"<This block of commented-out lines of code should be removed.(Æ…ı8¼ÑÛäÔ.
-n
-java:S2677"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ8¦¥ÖäÔ.
