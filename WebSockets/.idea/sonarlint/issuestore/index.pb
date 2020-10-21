@@ -11,3 +11,5 @@ v
 Fsrc/main/java/com/garancebenat/whois/Controller/WebPageController.java,1/3/133c89deb3d714ac65f68b080fde92883b8ffaf0
 l
 <src/main/java/com/garancebenat/whois/Component/JNDI_DNS.java,e/c/ec28d46d340f5d1a527be82fc1f79afdad36b612
+T
+$target/classes/static/stylesheet.css,b/9/b9c6a8c43bf3ba9cdafa6e636eabbc54cbf23786
