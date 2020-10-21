@@ -1,0 +1,22 @@
+
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(«‘±öşÿÿÿÿ8†ñ–½Ô.
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(íòœ¾8Ã×Ç¼Ô.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥ÿçÃ8ÑÂ˜½Ô.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(•ì‚½úÿÿÿÿ8†ñ–½Ô.
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(Ğ¤åñ8†ñ–½Ô.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨šˆı8ÑÂ˜½Ô.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ĞªûÜüÿÿÿÿ8ÑÂ˜½Ô.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(şıÙÜ8†ñ–½Ô.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(Ñ¥è­8†ñ–½Ô.
+Q
+java:S3740"/Provide the parametrized type for this generic.(®ûƒ‡øÿÿÿÿ8ÑÂ˜½Ô.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ ÉŞûÿÿÿÿ
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù†Óƒûÿÿÿÿ8¹şı»Ô.
+r	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‰È›ûÿÿÿÿ8†ñ–½Ô.
+L
+java:S3740,"/Provide the parametrized type for this generic.(ñÊÖ°8†ñ–½Ô.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬Û¬8¹şı»Ô.
+L
+java:S3740"/Provide the parametrized type for this generic.(Ç¾í8œ½Ô.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆôä»ÿÿÿÿÿ8œ½Ô.
