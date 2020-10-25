@@ -1,4 +1,4 @@
-package com.garancebenat.whois.Controller;
+package com.garancebenat.whois.controller;
 
 
 import org.springframework.stereotype.Controller;
@@ -14,7 +14,7 @@ public class WhoIsController {
 //    }
 
     @GetMapping(value = "/WhoIs")
-    public String WebPage() {
+    public String webPage() {
         return "index.html";
     }
 }
