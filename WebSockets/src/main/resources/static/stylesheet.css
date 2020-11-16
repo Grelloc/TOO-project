@@ -1,22 +1,21 @@
 .recherche { position: relative; }
-.recherche input[type="text"] { position: absolute; left: 340px; width: 50%; }
-.recherche button[type="submit"] { position: absolute; right: 282px;}
+.recherche input[type="text"] { position: absolute; left: 23.5%; width: 50%; }
+.recherche button[type="submit"] { position: absolute; left: 75%;}
 
-.whois{
-
-}
-
-header{
-    background-color: #393939; color: white;
-    right: 0;
+footer {
+    position: fixed;
     left: 0;
-    top: 0;
-}
-
-footer{
-    position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #393939; color: white;
+    width: 100%;
+    /*background-color: #393939; color: white;*/
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+  background-image: url("./img/fond.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
