@@ -33,10 +33,8 @@ public class JndiDns {
                     BasicAttribute ba = (BasicAttribute) ne.next();
                     NamingEnumeration nee = ba.getAll();
                     List<String> kids = new ArrayList<>();
-                    {
-                        while (nee.hasMore()) {
+                    while (nee.hasMore()) {
                             kids.add(nee.next().toString());
-                        }
                     }
                     preparingMap.put(ba.getID(), kids);
                 }

@@ -18,12 +18,12 @@ public class WhoIs {
             getDesktop()
                     .browse(URI.create("http://localhost:1963/WhoIs"));
         } catch (IOException e) {
-            log.error("Getting some error opening browser : {}",  e.getCause()); //Permet de mettre le bonjour dans les {}
+            log.error("" + e.getCause());
         }
         final ConfigurableApplicationContext run = SpringApplication.run(WhoIs.class, args);
         try {
             java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
-            System.out.println("Please press a key to stop the server...");
+            log.info("\nPlease press a key to stop the server...");
             reader.readLine();
         } catch (IOException e) {
             log.error("Couldn't read what was sent");
