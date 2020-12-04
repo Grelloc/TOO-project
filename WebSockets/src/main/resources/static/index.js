@@ -30,8 +30,20 @@ function getURL(){
     let URL=document.getElementById("URL").value;
     if(FormatURL().test(URL) === true){
         alert(URL);
-        const request = new Request("/domainUrl?url=URL",{method : 'GET'});
-        console.log(request);
+        const request = new Request("/WhoIs/domainUrl?url="+URL,{method : 'GET'});
+        fetch(request).then(response => {
+            if(response.status === 200){
+                console.log(response.json());
+                return response.json();
+            }
+            else{
+                throw new Error('Something went wrong on api server');
+            }
+        }).then(response => {
+            console.debug(response);
+        }).catch(error => {
+            console.error(error);
+        });
         request.parse;      
     }else{
         alert("Wrong URL, please try again...");
