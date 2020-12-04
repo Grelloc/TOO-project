@@ -43,10 +43,19 @@ function getURL(){
             else{
                 throw new Error('Something went wrong on api server');
             }
+<<<<<<< HEAD
         }).catch(error => {
             console.error(error);
         });
         printRecord(response);
+=======
+        }).then(response => {
+            console.debug(response);
+        }).catch(error => {
+            console.error(error);
+        });
+        request.parse;      
+>>>>>>> 2bbe550967e835648b358f11347c1cfda1b3b107
     }else{
         alert("Wrong URL, please try again...");
     }
