@@ -26,13 +26,27 @@ function FormatURL(){
     return new RegExp("^([0-9A-Za-z-\\.@:%_\+~#=]+)+((\\.[a-zA-Z]{2,3})+)(/(.)*)?(\\?(.)*)?");
 }
 
+function printRecord(record){
+    
+}
+
 function getURL(){
     let URL=document.getElementById("URL").value;
     if(FormatURL().test(URL) === true){
         alert(URL);
-        const request = new Request("/domainUrl?url=URL",{method : 'GET'});
-        console.log(request);
-        request.parse;      
+        const request = new Request("/WhoIs/domainUrl?url="+URL,{method : 'GET'});
+        fetch(request).then(response => {
+            if(response.status === 200){
+                console.log(response.json());
+                return response.json();
+            }
+            else{
+                throw new Error('Something went wrong on api server');
+            }
+        }).catch(error => {
+            console.error(error);
+        });
+        printRecord(response);
     }else{
         alert("Wrong URL, please try again...");
     }
