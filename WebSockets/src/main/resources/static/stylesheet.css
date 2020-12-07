@@ -20,4 +20,14 @@ body{
   background-size: cover;
 }
 
-#tableau{position:relative; top:50px;}
+#tableau{
+          position:relative; 
+          top:50px; 
+          overflow:hidden; 
+          overflow:scroll;
+}
+
+td{
+    width: 50px;
+}
+
