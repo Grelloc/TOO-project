@@ -18,7 +18,7 @@ public class WhoIs {
             getDesktop()
                     .browse(URI.create("http://localhost:1963/WhoIs"));
         } catch (IOException e) {
-            log.error("" + e.getCause());
+            log.error(String.valueOf(e.getCause()));
         }
         final ConfigurableApplicationContext run = SpringApplication.run(WhoIs.class, args);
         try {
