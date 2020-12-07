@@ -22,9 +22,8 @@ body{
 
 #tableau{
           position:relative; 
-          top:50px; 
-          overflow:hidden; 
-          overflow:scroll;
+          top:50px;
+          overflow:auto;
 }
 
 td{
