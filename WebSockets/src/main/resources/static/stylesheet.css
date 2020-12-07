@@ -26,7 +26,7 @@ body{
           overflow:auto;
 }
 
-td{
-    width: 50px;
+tr{
+    width: 80%;
 }
 
