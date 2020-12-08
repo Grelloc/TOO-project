@@ -26,3 +26,9 @@ body{
           overflow:auto;
 }
 
+.table {
+    color: green;
+    display: block;
+    max-height: 70%;
+    overflow: auto; <!-- Available options: visible, hidden, scroll, auto -->
+}

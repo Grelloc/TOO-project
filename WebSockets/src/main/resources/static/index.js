@@ -51,13 +51,12 @@ class DataURL{
     }
 
     printElements(attribute){
-        let message = "";
+        let message = "<td>";
         for (let element in attribute) {
-            message += `<td>
-                           ${attribute[element]}
-                        </td>`;
+            message += `<p>${attribute[element]}
+                        </p>`;
         }
-        return message;
+        return message+"</td>";
     }
 }
 
