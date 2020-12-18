@@ -16,7 +16,7 @@ public class WhoIs {
     public static void main(String[] args) {
         try {
             getDesktop()
-                    .browse(URI.create("http://localhost:1963/WhoIs"));
+                    .browse(URI.create("http://localhost:1963/WhoIs")); //Browser can be opened too early, please refresh page after server fully charged
         } catch (IOException e) {
             log.error(String.valueOf(e.getCause()));
         }
